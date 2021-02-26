@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "974fe4ea-fb52-430a-b4a7-ca8a34af53ed",
+		"name": "gg",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/demo/tank/addDemoDetails/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n        {\r\n            \"assetCategoryId\": \"ISO2\",\r\n            \"assetTypeId\": \"T112\",\r\n            \"assetNumber\": \"UNIU6001546\",\r\n            \"manufacturerName\": \"Welfit Oddy\",\r\n            \"manufacturerSerialNo\": 46634,\r\n            \"buildYear\": 2008,\r\n            \"grossWeight\": 36000,\r\n            \"tareWeight\": 3470,\r\n            \"netWeight\": 25020,\r\n            \"ownershipType\": \"lease\",\r\n            \"leaseId\": \"UTAS39F668\",\r\n            \"ownershipDate\": \"09/25/2020\",\r\n            \"locationId\": \"DUBAI\",\r\n            \"depotId\": \"RSA\",\r\n            \"assetStatusId\": \"AV\",\r\n            \"firstHydroTestDate\": \"08/01/2008\",\r\n            \"lastHydroTestDate\": \"09/21/2018\",\r\n            \"nextTestDate\": \"03/01/2021\"\r\n        },\r\n        {\r\n            \"assetCategoryId\": \"ISO\",\r\n            \"assetTypeId\": \"T11\",\r\n            \"assetNumber\": \"UNIU6002624\",\r\n            \"manufacturerName\": \"CIMC\",\r\n            \"manufacturerSerialNo\": \"NCTE 08T 06302\",\r\n            \"buildYear\": 2008,\r\n            \"grossWeight\": 36000,\r\n            \"tareWeight\": 3410,\r\n            \"netWeight\": 24930,\r\n            \"ownershipType\": \"lease\",\r\n            \"leaseId\": \"UTAS39F668\",\r\n            \"ownershipDate\": \"09/25/2020\",\r\n            \"locationId\": \"DUBAI\",\r\n            \"depotId\": \"RSA\",\r\n            \"assetStatusId\": \"AV\",\r\n            \"firstHydroTestDate\": \"06/01/2008\",\r\n            \"lastHydroTestDate\": \"06/01/2020\",\r\n            \"nextTestDate\": \"12/01/2022\"\r\n        },\r\n        {\r\n            \"assetCategoryId\": \"ISO\",\r\n            \"assetTypeId\": \"T11\",\r\n            \"assetNumber\": \"PQIU9160239\",\r\n            \"manufacturerName\": \"TRENCOR CONTAINERS\",\r\n            \"manufacturerSerialNo\": 201482,\r\n            \"buildYear\": 2001,\r\n            \"grossWeight\": 36000,\r\n            \"tareWeight\": 3810,\r\n            \"netWeight\": 26000,\r\n            \"ownershipType\": \"lease\",\r\n            \"leaseId\": \"UTAS39F668\",\r\n            \"ownershipDate\": \"09/25/2020\",\r\n            \"locationId\": \"DUBAI\",\r\n            \"depotId\": \"RSA\",\r\n            \"assetStatusId\": \"AV\",\r\n            \"firstHydroTestDate\": \"03/01/2001\",\r\n            \"lastHydroTestDate\": \"03/01/2020\",\r\n            \"nextTestDate\": \"09/01/2022\"\r\n        },\r\n        {\r\n            \"assetCategoryId\": \"ISO\",\r\n            \"assetTypeId\": \"T11\",\r\n            \"assetNumber\": \"PQIU9160460\",\r\n            \"manufacturerName\": \"TRENCOR CONTAINERS\",\r\n            \"manufacturerSerialNo\": 201505,\r\n            \"buildYear\": 2001,\r\n            \"grossWeight\": 36000,\r\n            \"tareWeight\": 3810,\r\n            \"netWeight\": 26000,\r\n            \"ownershipType\": \"lease\",\r\n            \"leaseId\": \"UTAS39F668\",\r\n            \"ownershipDate\": \"09/25/2020\",\r\n            \"locationId\": \"DUBAI\",\r\n            \"depotId\": \"RSA\",\r\n            \"assetStatusId\": \"AV\",\r\n            \"firstHydroTestDate\": \"03/01/2001\",\r\n            \"lastHydroTestDate\": \"03/01/2020\",\r\n            \"nextTestDate\": \"09/01/2022\"\r\n        }\r\n    ]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/demo/tank/addDemoDetails/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"demo",
+						"tank",
+						"addDemoDetails",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
